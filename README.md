@@ -1,92 +1,70 @@
-# Racha Diaria 📱
+# 📖 Racha Diaria - Lectura Bíblica Diaria
 
-Una aplicación Flutter para rastrear hábitos diarios y mantener rachas de consistencia.
+Una aplicación Flutter para mantener tu racha de lectura bíblica diaria. Marca capítulos leídos, mantén estadísticas y crece espiritualmente cada día.
 
-## 🚀 Características
+## 🌐 Demo en Vivo
 
-- **Seguimiento de Racha**: Mantén un registro de tu racha actual y la más larga
-- **Hábitos Personalizables**: Rastrea diferentes hábitos como ejercicio, lectura, meditación, etc.
-- **Interfaz Moderna**: Diseño atractivo con Material Design 3
-- **Notificaciones Visuales**: Feedback inmediato al completar hábitos
-- **Estadísticas**: Visualiza tu progreso diario
+**Aplicación Web:** [https://rachadiaria.web.app](https://rachadiaria.web.app)
 
-## 🛠️ Instalación
+## 📱 Descargar APK
 
-### Prerrequisitos
+**Versión Android:** [Descargar APK v1.0.0](https://github.com/BBKmkensie/Racha-Diaria/releases/latest)
 
-- Flutter SDK (versión 3.0 o superior)
-- Dart SDK
-- Un dispositivo o emulador para ejecutar la aplicación
+## ✨ Características
 
-### Pasos de Instalación
+- 📚 **Lectura bíblica diaria** - Mantén tu racha de lectura
+- 📊 **Estadísticas detalladas** - Ve tu progreso y racha actual
+- 🔐 **Autenticación** - Inicia sesión con Google o email
+- 📱 **Multiplataforma** - Web, Android, Windows, iOS
+- 💾 **Sincronización** - Tus datos se sincronizan entre dispositivos
+- 🎯 **Objetivos diarios** - Establece y cumple metas de lectura
 
-1. **Clona el repositorio**:
-   ```bash
-   git clone <tu-repositorio>
-   cd racha_diaria_app
-   ```
+## 🚀 Plataformas Disponibles
 
-2. **Instala las dependencias**:
-   ```bash
-   flutter pub get
-   ```
+| Plataforma | Estado | Descarga |
+|------------|--------|----------|
+| 🌐 **Web** | ✅ Disponible | [Ver en vivo](https://rachadiaria.web.app) |
+| 📱 **Android** | ✅ Disponible | [Descargar APK](https://github.com/BBKmkensie/Racha-Diaria/releases/latest) |
+| 💻 **Windows** | 🔄 En desarrollo | Próximamente |
+| 🍎 **iOS** | 🔄 En desarrollo | Próximamente |
 
-3. **Ejecuta la aplicación**:
-   ```bash
-   flutter run
-   ```
+## 🛠️ Tecnologías Utilizadas
 
-## 📱 Uso de la Aplicación
+- **Flutter** - Framework multiplataforma
+- **Firebase** - Autenticación y base de datos
+- **Firebase Hosting** - Hosting web
+- **Shared Preferences** - Almacenamiento local
+- **Material Design** - Interfaz de usuario
 
-1. **Pantalla Principal**: Ve tu racha actual y estadísticas
-2. **Completar Hábitos**: Toca cualquier hábito para marcarlo como completado
-3. **Reiniciar Racha**: Usa el botón "Reiniciar Racha" para empezar de nuevo
-4. **Seguimiento**: La aplicación mantiene automáticamente el registro de tu progreso
+## 📦 Instalación
 
-## 🎨 Personalización
+### Para Android:
+1. Descarga el APK desde [Releases](https://github.com/BBKmkensie/Racha-Diaria/releases/latest)
+2. Habilita "Fuentes desconocidas" en tu dispositivo
+3. Instala el archivo APK
 
-La aplicación incluye 4 hábitos predefinidos:
-- 🏋️ Ejercicio
-- 📚 Leer
-- 🧘 Meditar
-- ✍️ Escribir
+### Para Web:
+Visita [https://rachadiaria.web.app](https://rachadiaria.web.app) en tu navegador
 
-Puedes modificar estos hábitos editando el archivo `lib/main.dart` en la sección `_habits`.
+## 🔧 Desarrollo
 
-## 🏗️ Estructura del Proyecto
+### Requisitos:
+- Flutter SDK 3.0+
+- Dart 3.0+
+- Android Studio / VS Code
+- Firebase CLI
 
-```
-lib/
-├── main.dart          # Archivo principal con toda la lógica de la aplicación
-test/
-├── widget_test.dart   # Pruebas unitarias
-```
-
-## 🧪 Pruebas
-
-Ejecuta las pruebas con:
+### Instalación:
 ```bash
-flutter test
+git clone https://github.com/BBKmkensie/Racha-Diaria.git
+cd Racha-Diaria
+flutter pub get
+flutter run
 ```
-
-## 📦 Dependencias
-
-Esta aplicación utiliza solo las dependencias básicas de Flutter:
-- `flutter/material.dart` - Para la interfaz de usuario
-- `flutter_test` - Para las pruebas (solo en desarrollo)
-
-## 🚀 Próximas Mejoras
-
-- [ ] Persistencia de datos con SharedPreferences
-- [ ] Notificaciones push para recordatorios
-- [ ] Gráficos de progreso
-- [ ] Personalización de hábitos
-- [ ] Temas oscuros
-- [ ] Exportar datos
 
 ## 📄 Licencia
 
-Este proyecto está bajo la Licencia MIT. Ver el archivo `LICENSE` para más detalles.
+Este proyecto está bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
 
 ## 🤝 Contribuciones
 
@@ -99,8 +77,9 @@ Las contribuciones son bienvenidas. Por favor:
 
 ## 📞 Contacto
 
-Si tienes preguntas o sugerencias, no dudes en contactarme.
+- **GitHub:** [@BBKmkensie](https://github.com/BBKmkensie)
+- **Proyecto:** [Racha Diaria](https://github.com/BBKmkensie/Racha-Diaria)
 
 ---
 
-¡Mantén tu racha y construye mejores hábitos! 💪
+⭐ **¡Dale una estrella si te gusta el proyecto!** ⭐
